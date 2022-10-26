@@ -1,7 +1,8 @@
 import React from "react";
-import s from "./Hero.module.css";
+import s from "./Hero.module.scss";
 import img from "../../Images/hero-img.jpg";
 import { CSSTransition } from "react-transition-group";
+import transition from "../../Utils/anim.module.scss";
 
 const Hero = () => {
   return (
@@ -10,10 +11,10 @@ const Hero = () => {
         in={true}
         appear={true}
         timeout={500}
-        classNames="fade-scale"
+        classNames={transition}
         unmountOnExit
       >
-        <img src={img} alt="gallery" className={s.img}></img>
+        <img src={img} alt="mainImage" className={s.img}></img>
       </CSSTransition>
 
       <div className={s.blocText}>
@@ -21,7 +22,7 @@ const Hero = () => {
           in={true}
           appear={true}
           timeout={800}
-          classNames="fade-scale"
+          classNames={transition}
           unmountOnExit
         >
           <h1 className={s.title}>TORG || Just Metal</h1>
@@ -30,7 +31,8 @@ const Hero = () => {
           in={true}
           appear={true}
           timeout={800}
-          classNames="fade-scale"
+          // classNames="fade-scale"
+          classNames={transition}
           unmountOnExit
         >
           <h2 className={s.subtitle}>Металосервісний центр "TORG"</h2>

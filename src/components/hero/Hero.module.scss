@@ -1,0 +1,76 @@
+@import "../../Utils/utils.scss";
+
+.container {
+  background-color: $bg-color;
+  //   margin-top: 75px;
+  //   position: relative;
+  //   text-align: center;
+
+  @extend %container-styles; // run ???
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.img {
+  @extend %img-styles;
+}
+
+.blocText {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    top: 19%;
+  }
+  @media screen and (min-width: 1280px) {
+    top: 30%;
+  }
+}
+
+.title {
+  display: inline;
+  text-align: center;
+  font-style: normal;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.1;
+  border-bottom: 3px solid $active-color;
+  color: $bg-color;
+  margin-top: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 65px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 0px;
+    font-size: 100px;
+  }
+}
+
+.subtitle {
+  display: inline;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  padding-bottom: 20px;
+  border-bottom: 3px solid $active-color;
+  color: $bg-color;
+  margin-top: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 40px;
+    font-size: 50px;
+  }
+}
