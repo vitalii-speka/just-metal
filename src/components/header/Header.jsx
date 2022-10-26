@@ -1,9 +1,9 @@
-import React from 'react';
-import { HandySvg } from 'handy-svg';
-import { CSSTransition } from 'react-transition-group';
-import iconSrc from '../../Icons/svg/logo.svg';
-import s from './Header.module.css';
-import Sidebar from '../Sidebar/Sidebar';
+import React from "react";
+import { HandySvg } from "handy-svg";
+import { CSSTransition } from "react-transition-group";
+import iconSrc from "../../Icons/svg/logo.svg";
+import s from "./Header.module.scss";
+import Sidebar from "../Sidebar/Sidebar";
 
 const Header = () => {
   return (
@@ -57,7 +57,7 @@ const Header = () => {
         </CSSTransition>
       </div>
 
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+      <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
     </div>
   );
 };

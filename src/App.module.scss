@@ -1,0 +1,26 @@
+@import "./Utils/utils.scss";
+
+.App {
+  min-height: 100vh;
+}
+
+.container {
+  // @extend %container-styles;
+  // width: 320px;
+  // margin-left: auto;
+  // margin-right: auto;
+  // padding: 20px;
+  // background-color: #fff;
+  // border-color: #fff;
+
+  // width: 100%;
+  // max-width: 100%;
+  // overflow-x: hidden;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1360px;
+    padding: 30px;
+  }
+}

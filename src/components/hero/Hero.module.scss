@@ -1,12 +1,12 @@
 @import "../../Utils/utils.scss";
 
 .container {
-  background-color: $bg-color;
+  //   background-color: $bg-color;
   //   margin-top: 75px;
   //   position: relative;
   //   text-align: center;
 
-  @extend %container-styles; // run ???
+  @extend %container-styles;
   @media screen and (min-width: 1280px) {
     display: flex;
     flex-direction: row-reverse;
