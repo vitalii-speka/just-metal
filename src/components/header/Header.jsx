@@ -1,7 +1,7 @@
 import React from 'react';
 import { HandySvg } from 'handy-svg';
 import { CSSTransition } from 'react-transition-group';
-import iconSrc from '../../images/svg/logo.svg';
+import iconSrc from '../../Icons/svg/logo.svg';
 import s from './Header.module.css';
 import Sidebar from '../Sidebar/Sidebar';
 

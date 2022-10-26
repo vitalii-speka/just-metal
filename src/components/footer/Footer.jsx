@@ -1,15 +1,12 @@
-import React from 'react';
-import PaymentForm from './Form';
-import s from './Footer.module.css';
-import { HandySvg } from 'handy-svg';
+import PaymentForm from "../FormPay/Form";
+import s from "./Footer.module.css";
+import { HandySvg } from "handy-svg";
 // import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-// import iconLinkedin from '../../images/svg/linked.svg';
-// import iconFB from '../../images/svg/facebook.svg';
-import iconClock from '../../images/svg/clock-3917267.svg';
-import iconEmail from '../../images/svg/email-3916611.svg';
-import iconMaps from '../../images/svg/maps-3916880.svg';
-import iconPhone from '../../images/svg/phone-call-5070407.svg';
+import "react-toastify/dist/ReactToastify.css";
+import iconClock from "../../Icons/svg/clock-3917267.svg";
+import iconEmail from "../../Icons/svg/email-3916611.svg";
+import iconMaps from "../../Icons/svg/maps-3916880.svg";
+import iconPhone from "../../Icons/svg/phone-call-5070407.svg";
 
 const Footer = () => {
   // const handleClick = () => {

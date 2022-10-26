@@ -1,2 +1,0 @@
-# just-metal
-internet shop

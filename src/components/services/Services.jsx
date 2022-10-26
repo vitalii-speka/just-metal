@@ -1,9 +1,9 @@
-import React from 'react';
-import { CSSTransition } from 'react-transition-group';
-import s from './Services.module.css';
-import img1 from '../../images/transportirovka.jpg';
-import img2 from '../../images/rezka-metala.jpg';
-import img3 from '../../images/ekskavator.jpg';
+import React from "react";
+import { CSSTransition } from "react-transition-group";
+import s from "./Services.module.css";
+import img1 from "../../Images/transportirovka.jpg";
+import img2 from "../../Images/rezka-metala.jpg";
+import img3 from "../../Images/ekskavator.jpg";
 
 const Work = () => {
   return (

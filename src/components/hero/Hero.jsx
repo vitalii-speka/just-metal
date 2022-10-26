@@ -1,7 +1,7 @@
-import React from 'react';
-import s from './Hero.module.css';
-import img from '../../images/hero-img.jpg';
-import { CSSTransition } from 'react-transition-group';
+import React from "react";
+import s from "./Hero.module.css";
+import img from "../../Images/hero-img.jpg";
+import { CSSTransition } from "react-transition-group";
 
 const Hero = () => {
   return (

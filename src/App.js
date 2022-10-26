@@ -1,9 +1,9 @@
-import './App.css';
-import { Suspense } from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import Success from './components/responsePages/Success';
-import Cancel from './components/responsePages/Cancel';
+import "./App.css";
+import { Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Components/Home/Home";
+import Success from "./Components/ResponsePages/Success";
+import Cancel from "./Components/ResponsePages/Cancel";
 
 const App = () => {
   return (
